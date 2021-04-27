@@ -26,7 +26,7 @@ Page({
     var newSource = []
     if (prefix != "") {
       wx.request({
-        url: util.TXAPI_BASE_URL + '/txapi/lajifenlei/', //垃圾分类接口
+        url: util.TXAPI_BASE_URL + '/txapi/lajifenlei/', //垃圾分类的接口
         data: {
           key: util.TXAPI_KEY,
           word: prefix
